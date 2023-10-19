@@ -41,3 +41,20 @@ section{
     display: block;
     padding: 10px;
 }
+@media screen and (orientation:landscape) {
+    section{
+        width:80vw;
+    }
+    #imagem{
+        background-image: url(../imagens/Animegirl-225x.png);
+        background-size: cover;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #form{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
