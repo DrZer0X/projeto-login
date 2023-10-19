@@ -28,6 +28,8 @@ section{
     background-color: white;
     border-radius: 20px;
      overflow: hidden;
+     
+     transition: width .3s, height .3s;
 }
 
 #imagem{
@@ -44,6 +46,8 @@ section{
 @media screen and (orientation:landscape) {
     section{
         width:80vw;
+        max-height: 100vh;
+        
     }
     #imagem{
         background-image: url(../imagens/Animegirl-225x.png);
