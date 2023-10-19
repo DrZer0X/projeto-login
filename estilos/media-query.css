@@ -21,6 +21,7 @@
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(to bottom, #db3dfc , #62287c);
+      
     }
     section{
         width: 992px;
