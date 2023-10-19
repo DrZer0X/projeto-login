@@ -1,0 +1,40 @@
+@media screen and (min-width: 734px) and (max-width: 970px) {
+    body{
+        background-image: linear-gradient(to bottom, #db3dfc , #62287c);
+    }
+   section{
+        width:80vw;
+    }
+    #imagem{
+        background-image: url(../imagens/Animegirl-225x.png);
+        background-size: cover;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #form{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 969px) {
+    body{
+        background-image: linear-gradient(to bottom, #db3dfc , #62287c);
+    }
+    section{
+        width: 992px;
+    }
+    #imagem{
+        background-image: url(../imagens/Animegirl-225x.png);
+        background-size: cover;
+        float: right;
+        width: 45%;
+        height: 100%;
+    } 
+    #form{
+        float: left;
+        width: 55%;
+        height: 100%;
+    }
+}
