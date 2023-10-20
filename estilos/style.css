@@ -72,7 +72,7 @@ div.campo .material-icons{
 div.campo input{
     font-size: 1em;
     background-color: #761f28;
-    height: 100%;
+    height: calc(100% - 1px);
     width: calc(100% - 45px);
     border: none;
     border-radius: 0px 8px 8px 0px;
