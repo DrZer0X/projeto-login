@@ -72,6 +72,7 @@ div.campo .material-icons{
 div.campo input{
     font-size: 1em;
     background-color: #761f28;
+    color: white;
     height: calc(100% - 1px);
     width: calc(100% - 45px);
     border: none;
@@ -80,6 +81,7 @@ div.campo input{
 }
 div.campo input:focus-within{
     background-color: white;
+    color: black;
 }
 form > input[type=submit]{
     display: block;
