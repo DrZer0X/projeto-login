@@ -4,6 +4,7 @@
     }
    section{
         width:80vw;
+        height: 290px;
     }
     #imagem{
         background-image: url(../imagens/Animegirl-225x.png);
@@ -25,10 +26,12 @@
     }
     section{
         width: 992px;
+        height: 300px;
     }
     #imagem{
-        background-image: url(../imagens/Animegirl-225x.png);
+        background-image: url(../imagens/Animegirl700x.png);
         background-size: cover;
+        background-position: center center;
         float: right;
         width: 45%;
         height: 100%;
@@ -38,6 +41,14 @@
         width: 55%;
         height: 100%;
         font-size: 1.2em;
+    }
+    div.campo .material-icons{
+        transform: translate(4px, 2px);
+    }
+
+    div.campo input{
+        width: calc(100% - 46px);
+        transform: translateY(-10px);
     }
     
 }
